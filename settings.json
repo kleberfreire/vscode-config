@@ -4,7 +4,10 @@
   "editor.lineHeight": 1.8,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
   "files.associations": {
@@ -21,7 +24,10 @@
     ".env.example": "gear"
   },
   "tailwindCSS.experimental.classRegex": [
-    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
   ],
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
@@ -82,7 +88,6 @@
   ],
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.productIconTheme": "fluent-icons",
   "editor.fontFamily": "JetBrains Mono",
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 2,
@@ -225,7 +230,6 @@
     "Usuario",
     "WEBPUSH"
   ],
-  "workbench.colorTheme": "Min Dark",
-  "workbench.statusBar.visible": false,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Min Dark"
 }
